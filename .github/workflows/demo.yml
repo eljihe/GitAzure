@@ -1,12 +1,16 @@
 name: firstWorkflow
 on:
- workflow_dispatch:
+workflow_dispatch:
 jobs:
  job1:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Step1
-      run: echo "step1"
-        
-    - name: Step2
-      run: echo "step2"
+     runs-on: ubuntu-latest
+     steps:
+     - name: Step1
+       run: echo "step1"
+         
+     - name: Step2
+       run: echo "step2"
+  job2: Cowsays
+     runs-on: ubuntu-latest
+     steps:
+     - name: Step1
