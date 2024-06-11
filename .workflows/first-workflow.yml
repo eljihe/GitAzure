@@ -6,7 +6,7 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
-      steps:
+    steps:
         - name: Step1
           run: echo "step1"
         
